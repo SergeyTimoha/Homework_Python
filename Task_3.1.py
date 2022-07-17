@@ -11,7 +11,7 @@ list_elem = ['hello', '12', 'red', '567', '5','7']
 num = input('Enter a number:')
 print(find_number(list_elem, num))
 
-input('Enter')
+input('Enter a space to proceed to the next task')
 
 
 # Задача № 2: Напишите программу, которая определит позицию второго вхождения 
