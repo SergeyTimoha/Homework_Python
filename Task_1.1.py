@@ -8,7 +8,7 @@ def week_day(day):
         print('Weekend') 
     else:
         print('U entered a wrong number!') 
-    input('Enter')
+    input('Enter a space to proceed to the next task')
 
 
 # Задача №2. Напишите программу, которая принимает на вход координаты точки
