@@ -1,14 +1,14 @@
 # Задача №1.Вычислить результат деления двух чисел c заданной точностью d
 
-# from random import randint
-# d = int(input('Enter the number of numbers after the decimal point: '))
-# res = 0
-# for i in range(1, 10**d):
-#     res += 1 / (i**2)
-# pi = (res * 6)**0.5
-# print(round(pi, d))
+from random import randint
+d = int(input('Enter the number of numbers after the decimal point: '))
+res = 0
+for i in range(1, 10**d):
+    res += 1 / (i**2)
+pi = (res * 6)**0.5
+print(round(pi, d))
 
-# input('Enter')
+input('Enter')
 #Задача №2. Задайте натуральное число N. Напишите программу, которая составит список 
 # простых множителей числа N.
 
